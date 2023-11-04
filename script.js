@@ -15,3 +15,14 @@ document.getElementById('mudarCor').addEventListener('click', function() {
     corAtual = (corAtual + 1) % cores.length;
     body.style.backgroundColor = cores[corAtual];
 });
+document.getElementById('mostrarGif').addEventListener('click', function() {
+    var gifAnimado = document.getElementById('gifAnimado');
+    if (gifAnimado.style.display === 'none') {
+        gifAnimado.style.display = 'block';
+    } else {
+        gifAnimado.style.display = 'none';
+    }
+});
+
+
+

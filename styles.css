@@ -28,3 +28,18 @@ h1 {
     color: #fff; 
     padding: 10px 20px; 
 }
+#moverGif {
+    position: absolute;
+    top: 100px; 
+    left: 0;
+    z-index: 1; 
+}
+#moverGif {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 2; 
+}
+
+
+
